@@ -8,13 +8,13 @@
 
 # Configuration Variables
 VM_NAME="LFS"
-WORKDIR="/home/sboukiou/repos/ft_linux"
+WORKDIR="/home/sboukiou/goinfre/ft_linux"
 OS_TYPE="Linux_64"     # Generic 64-bit Linux
 RAM_SIZE=8192          # 8 GB RAM for faster compilation
-CPU_COUNT=4            # 4 CPU Cores
-DISK_SIZE=25000        # 25 GB disk space (in MB)
-DISK_FILE="${VM_NAME}_disk.vdi"
-ISO_PATH="/home/sboukiou/repos/ft_linux/gentoo.iso" # UPDATE THIS LINE
+CPU_COUNT=10            # 4 CPU Cores
+DISK_SIZE=30000        # 25 GB disk space (in MB)
+DISK_FILE="${WORKDIR}/${VM_NAME}_disk.vdi"
+ISO_PATH="$WORKDIR/gentoo.iso" # UPDATE THIS LINE
 
 echo "Creating VM: $VM_NAME..."
 
