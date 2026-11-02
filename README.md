@@ -10,7 +10,7 @@ As the 42 subject guideline states:
 ```
 
 ## Resources
-[The bibile](https://www.linuxfromscratch.org/lfs/view/stable-systemd/):  \
+[The bibile](https://www.linuxfromscratch.org/lfs/downloads/stable-systemd/LFS-SYSD-BOOK-13.1.pdf):  \
 This book is more than enough to get it all done, up and running. be very careful about the ***packages***, ***versions!*** \
 
 [Guide article by tonybtw](https://tonybtw.com/tutorial/linux-from-scratch/):  \
