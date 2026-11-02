@@ -10,8 +10,11 @@ As the 42 subject guideline states:
 ```
 
 ## Resources
-[The bibile](https://www.linuxfromscratch.org/lfs/view/stable-systemd/)
-This book is more than enough to get it all done, up and running. be very careful about the ***packages***, ***versions!***
+[The bibile](https://www.linuxfromscratch.org/lfs/view/stable-systemd/):  \
+This book is more than enough to get it all done, up and running. be very careful about the ***packages***, ***versions!*** \
+
+[Guide article by tonybtw](https://tonybtw.com/tutorial/linux-from-scratch/):  \
+A more simplified guide, with tips, but the books should not be overlooked. this one serves as notes from the book and should not replace it.
 
 ## Genearl instruction
 First You must set a virtual machine using a linux distribution as a host system where you can build and create your own.
