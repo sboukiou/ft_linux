@@ -3,6 +3,7 @@
 # Name: ft_linux
 # Type: Linux_64
 
+set -e
 
 #!/bin/bash
 
@@ -46,4 +47,6 @@ VBoxManage storagectl "$VM_NAME" --name "IDE Controller" --add ide
 VBoxManage storageattach "$VM_NAME" --storagectl "IDE Controller" --port 0 --device 0 --type dvddrive --medium "$ISO_PATH"
 
 echo "VM '$VM_NAME' created successfully!"
+echo "setting up port 2222 forwarding for  '$VM_NAME' ..."
+vboxmanage modifyvm "$VM_NAME" --natpf1 "guestssh,tcp,,2222,,22"
 echo "Run the VM using: VBoxManage startvm \"$VM_NAME\" --type gui"
